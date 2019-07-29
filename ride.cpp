@@ -12,8 +12,8 @@ LANG: C++14
 
 int getValueFromString(const std::string &string) {
 	int acc = 1;
-	for (int i = 0; i < string.length(); i++)
-		acc *= string[i] - 'A' + 1;
+	for (char c : string)
+		acc *= c - 'A' + 1;
 	return acc;
 }
 
