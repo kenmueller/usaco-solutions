@@ -1,0 +1,3 @@
+g++ "$1" -o .compiled_cpp
+./.compiled_cpp
+rm -rf .compiled_cpp

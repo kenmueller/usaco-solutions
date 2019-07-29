@@ -1,0 +1,5 @@
+.DS_Store
+.vscode/
+*.in
+*.out
+.compiled_cpp
