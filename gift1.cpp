@@ -1,21 +1,12 @@
 /*
 ID: kenmuel1
-PROG: ride
+PROG: gift1
 LANG: C++14
 */
 
 #include <iostream>
 #include <fstream>
 #include <string>
-
-#define MOD_VALUE 47
-
-int getValueFromString(const std::string &string) {
-	int acc = 1;
-	for (int i = 0; i < string.length(); i++)
-		acc *= string[i] - 'A' + 1;
-	return acc;
-}
 
 int main() {
 	std::ifstream fin("ride.in");
